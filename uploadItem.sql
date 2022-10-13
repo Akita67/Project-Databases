@@ -89,6 +89,5 @@ INSERT INTO ingredient_pizza(idPizza,idIngredient) VALUES ('la jounaid','olives'
 INSERT INTO ingredient_pizza(idPizza,idIngredient) VALUES ('la jounaid','anchovy');
 INSERT INTO ingredient_pizza(idPizza,idIngredient) VALUES ('la jounaid','gouda');
 
-rollback;
 commit;
 
