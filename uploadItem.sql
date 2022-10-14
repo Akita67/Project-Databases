@@ -90,9 +90,9 @@ INSERT INTO ingredient_pizza(idPizza,idIngredient) VALUES ('la jounaid','anchovy
 INSERT INTO ingredient_pizza(idPizza,idIngredient) VALUES ('la jounaid','gouda');
 
 INSERT INTO 
-customer (firstname, lastname, phone, zipcode, street_name, street_number, number_of_pizza)
+customer (firstname, lastname, phone, zipcode, street_name, street_number, number_of_pizza, email)
 VALUES
-("Jounaid", "Beaufils", "+33628703171", "6226NB", "vijverdalseweg", "8", 0)
+("Jounaid", "Beaufils", "+33628703171", "6226NB", "vijverdalseweg", "8", 0, "jounaidbeaufils@gmail.com");
 
 commit;
 
